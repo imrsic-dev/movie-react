@@ -1,0 +1,188 @@
+@media only screen and (max-width:1920px){
+    body{font-size: 21px;}
+    .filmovisia-text-box{padding-top: 11%;}
+    nav{padding: 1% 3%}
+}
+
+@media only screen and (max-width:1440px){
+    body{font-size: 19px;}
+    .filmovisia-text-box{padding-top: 14%;}
+    nav{padding: 1% 3%}
+}
+@media only screen and (max-width:1200px){
+    nav{padding: 15px 25px;}
+    .filmovisia-text-box{padding-top: 16%;}
+    .error-popup{    
+    top:5%;
+    left: 30%;
+    width: 40%;     
+    
+}
+}
+
+@media only screen and (max-width:1023px){
+    nav{padding: 10px 20px;}
+    .filmovisia-text-box{padding-top: 19%;}
+    h1{
+        max-width: 90%;
+        margin:0 auto;
+    }
+    
+    .error-popup{    
+    top:5%;
+    left: 30%;
+    width: 45%;     
+    
+}
+}
+
+@media only screen and (max-width:855px){
+    h1{font-size: 290%;
+    }
+    .filmovisia-text-box{padding-top: 25%;}
+    header{height: 90vh;}
+    .error-popup{    
+    top:5%;
+    left: 25%;
+    width: 50%;     
+    
+}
+}
+
+@media only screen and (max-width:767px){
+    body{font-size: 19px;}
+    nav{padding: 10px 20px;}
+    .main-nav{margin-top: 25px;}
+    .logo{
+    height: 65px;
+    width: auto;    
+    }
+    h1{font-size: 300%;
+    max-width: 95%;
+    margin:0 auto;}
+    .filmovisia-text-box{padding-top: 28%;}
+    header{height: 90vh;}
+    h2{font-size: 180%;
+    margin-bottom: 15px;
+    }
+    h4{font-size: 80%;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    }
+    section{padding:10% 2%;}
+    .go-top-btn{    
+    width: 50px;
+    height: 50px;    
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    bottom: 40px;
+    right: 20px;
+    }
+    .go-top-icon{margin-top: 15px;}
+    .container{width: 80%;}
+    
+    .error-popup{    
+    top:5%;
+    left: 20%;
+    width: 60%;   
+    }
+    
+    .success-popup{    
+    top:5%;
+    left: 35%;
+    width: 30%;  
+    }
+    
+}
+
+@media only screen and (max-width:576px){
+    body{font-size: 18px;}
+    nav{padding: 10px 20px;}
+    .main-nav{margin-top: 25px;}
+    .logo{
+    height: 65px;
+    width: auto;    
+    }
+    h1{font-size: 300%;
+    max-width: 80%;
+    margin:0 auto;}
+    .filmovisia-text-box{padding-top: 30%;}
+    header{height: 90vh;}
+    h2{font-size: 180%;
+    margin-bottom: 15px;
+    }
+    h4{font-size: 80%;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    }
+    section{padding:10% 2%;}
+    .go-top-btn{    
+    width: 40px;
+    height: 40px;    
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    bottom: 40px;
+    right: 10px;
+    }
+    .go-top-icon{margin-top: 10px;}
+    .container{width: 100%;}
+    .error-popup{    
+    top:5%;
+    left: 15%;
+    width: 70%;  
+    }
+    .success-popup{    
+    top:5%;
+    left: 30%;
+    width: 40%;  
+    }
+    
+    
+}
+
+@media only screen and (max-width:480px){
+    
+    body{font-size: 17px;}
+    nav{padding: 10px 20px;}
+    h1{font-size: 300%;}
+    .logo{
+    height: 60px;
+    width: auto;
+    margin-top: 20px;
+    }
+    .filmovisia-text-box{padding-top: 18%;}
+    .main-nav{margin-top: 20px;}
+    .go-top-btn{    
+    width: 40px;
+    height: 40px;    
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    bottom: 40px;
+    right: 20px;
+    }
+    .go-top-icon{margin-top: 10px;}
+    header{height: 90vh;
+    width: 100%;}
+    h2{font-size: 190%;
+    margin-bottom: 15px;
+    }
+    h4{font-size: 80%;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    }
+    section{padding:10% 2%;}
+    .container{width: 100%;}
+    .error-popup{    
+    top:5%;
+    left: 10%;
+    width: 80%;     
+    
+}
+    
+}

@@ -46,10 +46,10 @@ function App() {
                 setMoviesData(res.data);
                 setShowLoader(false);
             }).catch((err)=>{
-            if(err.response.status === 400){
+            if(err.response && err.response.status === 400){
                 setContentMsg(err.response.data.message);
             }
-            else if(err.response.status === 500){
+            else if(err.response && err.response.status === 500){
                 setContentMsg("Something went wrong, please try again.");
             }else{
                 setContentMsg("Something went wrong, please try again.");
@@ -74,7 +74,7 @@ function App() {
                 setContentMsg("Success!");
                 setShowMsg(true);
                 setMoviesData((preS)=>{
-                   const preSF = preS.filter((movie)=>movie.id != id);
+                   const preSF = preS.filter((movie)=>movie.id !== id);
                    return preSF.concat([data]);
 
                 });
@@ -82,10 +82,10 @@ function App() {
                 setShowLoader(false);
             })
                 .catch((err)=> {
-                    if(err.response.status === 400){
+                    if(err.response && err.response.status === 400){
                         setContentMsg(err.response.data.message);
                     }
-                    else if(err.response.status === 500){
+                    else if(err.response && err.response.status === 500){
                         setContentMsg("Something went wrong, please try again.");
                     }else{
                         setContentMsg("Something went wrong, please try again.");
@@ -108,10 +108,10 @@ function App() {
                     setShowLoader(false);
                 })
                 .catch((err)=> {
-                    if(err.response.status === 400){
+                    if(err.response && err.response.status === 400){
                         setContentMsg(err.response.data.message);
                     }
-                    else if(err.response.status === 500){
+                    else if(err.response && err.response.status === 500){
                         setContentMsg("Something went wrong, please try again.");
                     }else{
                         setContentMsg("Something went wrong, please try again.");
@@ -148,10 +148,10 @@ function App() {
                 setShowLoader(false);
             })
             .catch((err)=>{
-                if(err.response.status === 400){
+                if(err.response && err.response.status === 400){
                     setContentMsg(err.response.data.message);
                 }
-                else if(err.response.status === 500){
+                else if(err.response && err.response.status === 500){
                     setContentMsg("Something went wrong, please try again.");
                 }else{
                     setContentMsg("Something went wrong, please try again.");
