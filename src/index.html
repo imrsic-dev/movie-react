@@ -1,0 +1,243 @@
+<! DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Filmovisia is a place where you can add, edit and view you movie collection. Create your watchlist or list of your favourite movies.">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="queries.css">
+      <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&
+         family=Playfair+Display&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="resources/grid.css">
+      <title>Filmovisia</title>
+      <!-- favicons -->
+      <link rel="apple-touch-icon" sizes="180x180" href="resources/favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png">
+      <link rel="manifest" href="resources/site.webmanifest">
+   </head>
+   <body>
+       
+      <header>
+         <nav>
+            <div class="row">
+               <img src="resources/img/logo-light.png" alt="logo-light" class="logo">
+               <ul class="main-nav">
+                  <li><a href="#all-movies">all movies</a></li>
+                  <li class="new-movie"><a href="#add-new-movie">add new movie</a></li>
+               </ul>
+            </div>
+         </nav>
+         <div class="filmovisia-text-box">
+            <h1>Welcome to filmovisia</h1>
+            <h4 class="header-h4">create / edit / view your movie collection</h4>
+         </div>
+          <div>
+          <a href="#" class="go-top-btn"><ion-icon name="chevron-up-outline" class="go-top-icon"></ion-icon></a>
+              </div>
+      </header>
+      <section id="add-new-movie" class="section-form">
+         <div class="row">
+            <h2>Add new movie</h2>
+            <h4>Create your favourite movies list, add your next movie to watch, etc...</h4>
+         </div>
+         <div class="container">
+            <form>
+               <div>
+                  <input type="text" name="" id="" required placeholder="Enter movie name*" />
+                  <label for="">*Movie title</label>
+               </div>
+               <div>
+                  <input type="text" name="" id="" required placeholder="Enter movie genre*" />
+                  <label for="">*Genre</label>
+               </div>
+               <div>
+                  <p class="p-form">
+                     Rate this movie
+                     <select id="rate-movie-drpdwn" name="rating">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                     </select>
+                  </p>
+               </div>
+               <p class="p-form p-form-2">
+                   Is this movie explicit?
+                  <label class="switch">
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                  </label>
+               </p>
+               <div>
+                  <button type="submit" class="button-add-new">Add new movie</button>
+               </div>
+            </form>
+         </div>
+      </section>
+      <section class="section-view-movies" id="all-movies">
+         <div class="row view-movies-text-box">
+            <h2>View your movie collection</h2>
+            <h4>Here you can see a list of movies you added to your movie collection</h4>
+         </div>
+         <div class="row">
+            <div class="col span-1-of-3">
+               <div class="box">
+                  <img src="resources/img/movie-icon.png" class="movie-icon">                    
+                  <div class="movie-feature">
+                     <p class="p-movie-rating">
+                        10
+                        <ion-icon name="star"></ion-icon>
+                     </p>
+                  </div>
+                  <h3>Forrest Gump </h3>
+                  <div class="movie-feature">
+                     <p class="p-movie-feature">drama/romance</p>
+                  </div>
+                  <div class="movie-feature movie-explicit">
+                     <p >18+</p>
+                  </div>
+                  <div class="movie-feature">                    
+                     <button class="button-edit">edit</button>
+                  </div>
+                  <div class="movie-feature">                    
+                     <button class="button-delete">delete</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col span-1-of-3">
+               <div class="box">
+                  <img src="resources/img/movie-icon.png" class="movie-icon">                    
+                  <div class="movie-feature">
+                     <p class="p-movie-rating">
+                        10
+                        <ion-icon name="star"></ion-icon>
+                     </p>
+                  </div>
+                  <h3>Forrest Gump Borest gump</h3>
+                  <div class="movie-feature">
+                     <p class="p-movie-feature">drama/romance</p>
+                  </div>
+                  <div class="movie-feature movie-explicit ">
+                     <p >18+</p>
+                  </div>
+                  <div class="movie-feature">                    
+                     <button class="button-edit">edit</button>
+                  </div>
+                  <div class="movie-feature">                    
+                     <button class="button-delete">delete</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col span-1-of-3">
+               <div class="box">
+                  <img src="resources/img/movie-icon.png" class="movie-icon">                    
+                  <div class="movie-feature">
+                     <p class="p-movie-rating">
+                        10
+                        <ion-icon name="star"></ion-icon>
+                     </p>
+                  </div>
+                  <h3>Forrest Gump</h3>
+                  <div class="movie-feature">
+                     <p class="p-movie-feature">drama/romance</p>
+                  </div>
+                  <div class="movie-feature movie-explicit explicit-hide">
+                     <p >18+</p>
+                  </div>
+                  <div class="movie-feature">                    
+                     <button class="button-edit">edit</button>
+                  </div>
+                  <div class="movie-feature">                    
+                     <button class="button-delete">delete</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row" style="padding-bottom: 5%;">
+            <div class="col span-1-of-3">
+               <div class="box">
+                  <img src="resources/img/movie-icon.png" class="movie-icon">                    
+                  <div class="movie-feature">
+                     <p class="p-movie-rating">
+                        10
+                        <ion-icon name="star"></ion-icon>
+                     </p>
+                  </div>
+                  <h3>Forrest Gump</h3>
+                  <div class="movie-feature">
+                     <p class="p-movie-feature">drama/romance</p>
+                  </div>
+                  <div class="movie-feature movie-explicit">
+                     <p >18+</p>
+                  </div>
+                  <div class="movie-feature">                    
+                     <button class="button-edit">edit</button>
+                  </div>
+                  <div class="movie-feature">                    
+                     <button class="button-delete">delete</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col span-1-of-3">
+               <div class="box">
+                  <img src="resources/img/movie-icon.png" class="movie-icon">                    
+                  <div class="movie-feature">
+                     <p class="p-movie-rating">
+                        10
+                        <ion-icon name="star"></ion-icon>
+                     </p>
+                  </div>
+                  <h3>Forrest Gump</h3>
+                  <div class="movie-feature">
+                     <p class="p-movie-feature">drama/romance</p>
+                  </div>
+                  <div class="movie-feature movie-explicit">
+                     <p >18+</p>
+                  </div>
+                  <div class="movie-feature">                    
+                     <button class="button-edit">edit</button>
+                  </div>
+                  <div class="movie-feature">                    
+                     <button class="button-delete">delete</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col span-1-of-3">
+               <div class="box">
+                  <img src="resources/img/movie-icon.png" class="movie-icon">                    
+                  <div class="movie-feature">
+                     <p class="p-movie-rating">
+                        10
+                        <ion-icon name="star"></ion-icon>
+                     </p>
+                  </div>
+                  <h3>Forrest Gump</h3>
+                  <div class="movie-feature">
+                     <p class="p-movie-feature">drama/romance</p>
+                  </div>
+                  <div class="movie-feature movie-explicit explicit-hide">
+                     <p >18+</p>
+                  </div>
+                  <div class="movie-feature">                    
+                     <button class="button-edit">edit</button>
+                  </div>
+                  <div class="movie-feature">                    
+                     <button class="button-delete">delete</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <p class="copyright-footer">©by Ivan</p>
+      </footer>
+      <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+   </body>
+</html>
